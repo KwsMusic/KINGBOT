@@ -28,13 +28,13 @@ OWNER_ID = int(getenv("OWNER_ID", 5730490876))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/greatpersonxd/jennymusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/KwsMusic/KINGBOT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Incricible")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FREINDS_CLUB")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Navu_Updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+lyc6m2W59d4wMTU1")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -80,14 +80,14 @@ autoclean = []
 confirmer = {}
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/fdbffdb39d20374823466.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
 )
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://graph.org/file/2f6559b46a39f61c5f82b.jpg"
+    "PING_VID_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/707727fe65fa1c76ca9de.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/707727fe65fa1c76ca9de.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/707727fe65fa1c76ca9de.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/707727fe65fa1c76ca9de.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/707727fe65fa1c76ca9de.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/707727fe65fa1c76ca9de.jpg"
