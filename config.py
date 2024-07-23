@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Navu_Updates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+lyc6m2W59d4wMTU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALL_QUIZ_TAME")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWF_MUSIC1")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
